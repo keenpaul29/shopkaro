@@ -132,6 +132,6 @@ shopkaro/
 
 ## Contact
 
-Puspal - [@paul_puspal](https://twitter.com/paul_puspal)
-Project Link: [https://github.com/keenpaul29/shopkaro](https://github.com/keenpaul/shopkaro)
+- Puspal - [@paul_puspal](https://twitter.com/paul_puspal)
+- Project Link: [https://github.com/keenpaul29/shopkaro](https://github.com/keenpaul/shopkaro)
 
