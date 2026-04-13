@@ -1,6 +1,7 @@
 import express from 'express'
 import cors from 'cors'
 import 'dotenv/config'
+import { inject } from '@vercel/analytics'
 import connectDB from './config/mongodb.js'
 import connectCloudinary from './config/cloudinary.js'
 import userRouter from './routes/userRoute.js'
@@ -13,6 +14,9 @@ const app = express()
 const port = process.env.PORT || 4000
 connectDB()
 connectCloudinary()
+
+// Initialize Vercel Web Analytics
+inject()
 
 //middlewares
 app.use(express.json())
